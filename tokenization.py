@@ -19,6 +19,7 @@ sequences = tokenizer.texts_to_sequences(sentences)
 padded = pad_sequences(sequences)
 
 print(word_index) # A dictionary is received
+print("Hello world")
 print(sequences)
 print(padded)
 
